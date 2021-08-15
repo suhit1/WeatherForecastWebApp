@@ -77,7 +77,7 @@ function Get_api() {
 
   request.open(
     "GET",
-    `http://api.openweathermap.org/data/2.5/weather?q=${search_value}&APPID=${api_key}`
+    `https://api.openweathermap.org/data/2.5/weather?q=${search_value}&APPID=${api_key}`
   );
 
   request.send();
