@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="search_div">
+        <input
+          placeholder="&nbsp; &nbsp; Enter City Name....."
+          type="text"
+          id="search"
+          class="search"
+        />
+        <button id="btn" class="btn">🔍</button>
+      </div>
+    </header>
+    <main>
+      <div class="weather_info">
+        <h2 id="city_name" class="city_name">Enter City Name</h2>
+        <div class="temp_weather_img">
+          <div class="temp_weather_status">
+            <h2 class="temp" id="temperature">0°C</h2>
+            <h2 id="wether_status" class="wether_status">unknown</h2>
+          </div>
+          <div class="img">
+            <img src="img/question.png" id="img_duplicate" src="" alt="" />
+          </div>
+        </div>
+        <h2 class="humidity" id="humidity">
+          Humidity: <span id="humidity_span">0.0 %</span>
+        </h2>
+        <h2 class="wind" id="wind">
+          Wind: <span id="wind_span">0.0 kmph</span>
+        </h2>
+        <h2 class="pressure" id="pressure">
+          Pressure: <span id="pressure_span">0.0 Hg</span>
+        </h2>
+      </div>
+    </main>
+    <footer>
+      <h3 class="made">Made By Suhit Gupta ❤</h3>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
