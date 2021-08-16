@@ -85,3 +85,7 @@ input::-webkit-input-placeholder {
 .city_name {
   padding-top: 20px;
 }
+
+.heart {
+  color: red;
+}
